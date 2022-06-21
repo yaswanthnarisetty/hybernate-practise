@@ -7,8 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-security-demo-01-base-app" />
-        <module name="spring-securitydemo-03-custom-login" />
+        <module name="spring-security-demo" />
+        <module name="spring-securitydemo-02-basic-security" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-securitydemo-04-bootstrap-login" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
