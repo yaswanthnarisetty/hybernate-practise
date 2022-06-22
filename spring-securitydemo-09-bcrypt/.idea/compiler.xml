@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-security-demo" />
+        <module name="spring-securitydemo-07-user-roles" />
+        <module name="spring-securitydemo-05-bootstrap-logout" />
+        <module name="spring-security-demo-01-base-app" />
+        <module name="spring-securitydemo-02-basic-security" />
+        <module name="spring-securitydemo-08-jdbc" />
+        <module name="spring-securitydemo-09-bcrypt" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-securitydemo-04-bootstrap-login" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
